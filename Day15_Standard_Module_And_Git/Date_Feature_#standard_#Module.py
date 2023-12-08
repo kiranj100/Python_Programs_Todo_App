@@ -1,6 +1,10 @@
 #from functions import get_read_lines, get_write_lines   #it's effective when you have 5 function in functions.py
 import functions   # it's a simpler way
 #it's effective when you have to many function in functions.py
+import time
+data = time.strftime("%b %d, %Y %H:%M:%S")
+print("Following are Data and Time :")
+print("It's Now ",data)
 while True:
      user_input = input("Type add,show,edit,remove,exit : ")
      user_input = user_input.strip()
